@@ -1,0 +1,19 @@
+---
+title: Pagination
+description: false
+layout: default
+tags: primary
+date: 2024-01-02
+pagination:
+  data: reset
+  size: 1
+eleventyComputed:
+  css: "{{ pagination.items[0].name }}"
+permalink: "/paginate/{{ pagination.items[0].name | slug }}/index.html"
+---
+{% include 'pagination/object' %}
+<h2>{{ pagination.items[0].name | capitalize }}</h2>
+<p>Category: {{ pagination.items[0].category }}</p>
+<p>Description: {{ pagination.items[0].description }}</p>
+<p>Website: <a href="{{ pagination.items[0].url }}">{{ pagination.items[0].url }}</a></p>
+<p>GitHub: <a href="{{ pagination.items[0].github }}">{{ pagination.items[0].github }}</a></p>

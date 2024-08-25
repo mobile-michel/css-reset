@@ -1,0 +1,68 @@
+[
+    {
+        "name": "mystyle",
+        "url": false,
+        "github": false,
+        "description": "A very basic normalization.",
+        "category": "normalization",
+        "author": "Michel Maillard"
+
+    },
+    {
+        "name": "joshwcomeau",
+        "url": "https://www.joshwcomeau.com/css/custom-css-reset/",
+        "github": false,
+        "description": "A modern CSS reset.",
+        "category": "normalization",
+        "author": "Josh Comeau"
+
+    },
+    {
+        "name": "piccalilli",
+        "url": "https://piccalil.li/blog/a-more-modern-css-reset/",
+        "github": false,
+        "description": "A more modern CSS reset.",
+        "category": "normalization",
+        "author": "Andy Bell"
+
+    },
+    {
+        "name": "normalize",
+        "url": "https://necolas.github.io/normalize.css/",
+        "description": "A modern, HTML5-ready alternative to CSS resets.",
+        "category": "normalization",
+        "author": "Nicolas Gallagher"
+    },
+    {
+        "name": "sanitize",
+        "url": "https://csstools.github.io/sanitize.css/",
+        "github": "https://github.com/csstools/sanitize.css",
+        "description": "A best-practices CSS foundation",
+        "category": "normalization",
+        "author": "Jonathan Neal"
+    },
+    {
+        "name": "gardevoir",
+        "url": false,
+        "github": "https://github.com/fi-krish/reseter.css",
+        "description": "The modern CSS reset.",
+        "category": "normalization",
+        "author": "Josh Comeau"
+    },
+    {
+        "name": "minireset",
+        "url": "https://jgthms.com/minireset.css/",
+        "github": "https://github.com/jgthms/minireset.css",
+        "description": "A tiny modern CSS reset",
+        "category": "reset",
+        "author": "Jeremy Thomas"
+    },
+    {
+        "name": "the-new-css-reset",
+        "url": "https://elad2412.github.io/the-new-css-reset/",
+        "github": "https://github.com/elad2412/the-new-css-reset",
+        "description": "The New Simple and Lighter CSS Reset.",
+        "category": "reset",
+        "author": "Elad Shechter"
+    }
+]

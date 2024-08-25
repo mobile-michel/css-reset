@@ -1,0 +1,24 @@
+:root {
+    --grey100: #f8f9fa;
+    --grey200: #e9ecef;
+    --grey300: #dee2e6;
+    --grey400: #ced4da;
+    --grey500: #adb5bd;
+    --grey600: #868e96;
+    --grey700: #495057;
+    --grey800: #343a40;
+    --grey900: #212529;
+}
+
+body {
+    min-height: 100vh;
+    margin-block: 0;
+    display: grid;
+    grid-template-columns: minmax(auto, 50rem);
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+}
+
+body>header, main, body>footer {
+    padding: 1rem;
+}

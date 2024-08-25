@@ -1,0 +1,11 @@
+body {
+    background-color: var(--grey100);
+}
+
+header, footer {
+    background-color: var(--grey300);
+}
+
+main {
+    background-color: var(--grey200);
+}
