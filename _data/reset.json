@@ -2,7 +2,7 @@
     {
         "name": "mystyle",
         "url": false,
-        "github": false,
+        "github": "https://github.com/mobile-michel/css-reset",
         "description": "A very basic normalization.",
         "category": "normalization",
         "author": "Michel Maillard"
@@ -20,7 +20,7 @@
     {
         "name": "piccalilli",
         "url": "https://piccalil.li/blog/a-more-modern-css-reset/",
-        "github": false,
+        "github": "https://github.com/Andy-set-studio/modern-css-reset",
         "description": "A more modern CSS reset.",
         "category": "normalization",
         "author": "Andy Bell"
@@ -29,6 +29,7 @@
     {
         "name": "normalize",
         "url": "https://necolas.github.io/normalize.css/",
+        "github": "https://github.com/necolas/normalize.css",
         "description": "A modern, HTML5-ready alternative to CSS resets.",
         "category": "normalization",
         "author": "Nicolas Gallagher"
@@ -50,9 +51,25 @@
         "author": "Josh Comeau"
     },
     {
+        "name": "modern-normalize",
+        "url": false,
+        "github": "https://github.com/sindresorhus/modern-normalize",
+        "description": "Normalize browsers' default style.",
+        "category": "normalization",
+        "author": "Sindre Sorhus"
+    },
+    {
+        "name": "ress",
+        "url": "https://ress.page/",
+        "github": "https://github.com/sindresorhus/modern-normalize",
+        "description": "A modern CSS reset.",
+        "category": "reset",
+        "author": "Filipe Linhares"
+    },
+    {
         "name": "minireset",
         "url": "https://jgthms.com/minireset.css/",
-        "github": "https://github.com/jgthms/minireset.css",
+        "github": "https://github.com/filipelinhares/ress",
         "description": "A tiny modern CSS reset",
         "category": "reset",
         "author": "Jeremy Thomas"
@@ -64,5 +81,21 @@
         "description": "The New Simple and Lighter CSS Reset.",
         "category": "reset",
         "author": "Elad Shechter"
+    },
+    {
+        "name": "destyle",
+        "url": "https://nicolas-cusan.github.io/destyle.css",
+        "github": "https://github.com/nicolas-cusan/destyle.css",
+        "description": "Opinionated reset stylesheet that provides a clean slate for styling your html.",
+        "category": "reset",
+        "author": "Nicolas Cusan"
+    },
+    {
+        "name": "meyerweb",
+        "url": "https://meyerweb.com/eric/tools/css/reset/",
+        "github": "",
+        "description": "The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on.",
+        "category": "reset",
+        "author": "Éric Meyer"
     }
 ]
